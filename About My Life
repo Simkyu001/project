@@ -8,10 +8,9 @@
       body {
           background-color: rgb(255, 255, 255)
       }  
-<p>
-<b><h1> I'm from South Korea and I'm 17 years old.</h1></b>
 
-</p> 
+<b><h1> About My Life</h1></b>
+<p> I'm from South Korea and I'm 17 years old.</p> 
 
 
 </html>
