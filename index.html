@@ -21,7 +21,8 @@ section {
 
 h1 {           
   color: blue;
-  font-size: 28pt; 
+  font-size: 24pt; 
+ 
   }
         
          
@@ -78,7 +79,7 @@ margin-top: 40px;
  During my over 9 years, I studied English and Mathematics
   and was able to finish Elementary, Middle school and right here in Lynnwood High school. 
   However, Highschool life was more harsh than the time when I started learning English.
-  I had to take care of my GPA and I had to study for the SAT but i knew that all of these make a pathway of my life. 
+  I had to take care of my GPA and I had to study for the SAT but I knew that all of these make a pathway of my life. 
  I’m sometimes jealous of students who do nothing because during my middle school and up to high school all I’ve been doing was SAT and maintaining my GPA. 
  My family and my church teachers hope that I will go to the University of Washington. 
  I had to prepare the steps for high school because, in high school, GPA and SAT matter the most. 
@@ -113,12 +114,27 @@ margin-top: 40px;
 </ol>
  
  
+ <label for="red">My Birth Month(#):</label>
+   <input id="guess" type="text" />
+   <button onclick="check()">Check</button>
+   <script type="text/javascript">
+   theNumber = 1
+   check = function() {
+       guess = document.querySelector("#guess").value;
+       if (guess == theNumber) {
+           alert("Correct!")
+       } else {
+           if (guess < theNumber) {
+               alert("More")
+           } else {
+               alert("Less")
+           }
+       }
+   }
+   </script>
 </p>
   </section>       
  </body>         
 </aside>  
 </body>
- 
- 
- 
 </html>
